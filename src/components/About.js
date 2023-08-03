@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react'
 
-export default function About() {
+function About() {
+  
   return (
     <div name="about" className="w-full h-screen  text-gray-300">
       <div className="flex flex-col justify-center group items-center w-full h-full">
@@ -33,3 +34,5 @@ export default function About() {
     </div>
   );
 }
+
+export default About;

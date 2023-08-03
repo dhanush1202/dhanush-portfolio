@@ -16,7 +16,7 @@ import tailwind from "../assets/tailwind.png";
 
 export default function Skills() {
   return (
-    <div className='w-full h-screen  text-gray-300'>
+    <div className='w-full h-screen  text-gray-300 '>
         <div className='max-w-[1000px] mx-auto p-4 flex group flex-col justify-center w-full h-full'>
             <div>
                 <p className='font-bold text-2xl inline border-pink-700 group-hover:border-b-4 duration-200 px-2'>Skills</p>
@@ -71,7 +71,13 @@ export default function Skills() {
                     <img className='w-10 sm:w-20 mx-auto py-2' src={firebase} alt="html icon" />
                     <p className='my-2'>FIREBASE</p>
                 </div>
-                
+                <div className=' shadow-lg hover:shadow-[#555555bb] hover:scale-110 duration-500 rounded-lg'>
+                    <img className='w-10 sm:w-20 mx-auto py-2' src={tailwind} alt="html icon" />
+                    <p className='my-2'>Tailwind CSS</p>
+                </div><div className=' shadow-lg hover:shadow-[#555555bb] hover:scale-110 duration-500 rounded-lg'>
+                    <img className='w-10 sm:w-20 mx-auto py-2' src={bs} alt="html icon" />
+                    <p className='my-2'>Burp Suite</p>
+                </div>
             </div>
             <br />
         </div>
