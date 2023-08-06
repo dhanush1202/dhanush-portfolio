@@ -16,11 +16,11 @@ import tailwind from "../assets/tailwind.png";
 
 export default function Skills() {
   return (
-    <div className='w-full h-screen  text-gray-300 '>
+    <div className='w-full max-h-fit  text-gray-300 '>
         <div className='max-w-[1000px] mx-auto p-4 flex group flex-col justify-center w-full h-full'>
             <div>
-                <p className='font-bold text-2xl inline border-pink-700 group-hover:border-b-4 duration-200 px-2'>Skills</p>
-                <p className='py-4'>These are the technologies I've worked with</p>
+                <p className='font-bold text-4xl inline border-pink-700 group-hover:border-b-4 duration-200 px-2 navvv uppercase'>Skills</p>
+                <p className='py-4 abtmatter'>These are the technologies I've worked with</p>
             </div>
             <div className='w-full grid grid-cols-4 sm:grid-cols-6 gap-4 text-center'>
                 <div className=' shadow-lg hover:shadow-[#555555bb] hover:scale-110 duration-500 rounded-lg'>

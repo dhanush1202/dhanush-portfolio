@@ -7,9 +7,11 @@ export default function Contact() {
     <div name="contact" className='w-full h-screen text-gray-300 flex justify-center items-center p-4'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col group justify-center w-full h-full'>
       <div className='py-8'>
-          <p className="font-bold text-2xl inline border-pink-700 group-hover:border-b-4 duration-200 px-2 capitalize">
+          <p className="font-bold text-4xl uppercase inline border-pink-700 group-hover:border-b-4 duration-200 px-2 navvv">
             Contact
           </p>
+          <p className="py-3 abtmatter">Connect with me!!</p>
+        
         </div>
         <div className='w-full flex items-center justify-center mx-auto'>
 
