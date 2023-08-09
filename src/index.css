@@ -7,6 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
 @layer base{
     li{
         @apply px-4;
@@ -18,14 +23,17 @@
 .navvv{
     /* font-family: 'Jost', sans-serif;
      */
-     font-family: 'Roboto Slab', serif;
+     /* font-family: 'Roboto Slab', serif; */
+     
+    font-family: 'Alegreya Sans', sans-serif;
+     
 }
 .about{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+    
 }
 .abtmatter{
-    font-family: 'Noto Sans', sans-serif;
-    /* font-style: italic; */
+    font-family: 'Lato', sans-serif;
 }
 
 .contentdiv{
@@ -36,7 +44,11 @@
     height: 200px;
 }
 .nameplate{
-    font-family: 'Lugrasimo', cursive;
+    /* font-family: 'Lugrasimo', cursive; */
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Mulish', sans-serif; */
 }
 
 .contentdiv:hover{

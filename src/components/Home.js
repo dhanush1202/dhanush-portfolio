@@ -7,7 +7,7 @@ export default function Home(props) {
     // bg-[#4a596f]
     <div className="w-full h-screen text-gray-300">
       <div className="max-w-[1200px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="p-4 m-2 navvv">Hey, my name is </p>
+        <p className="p-4 m-2 about">Hey, my name is </p>
         <h1 className="text-4xl sm:text-7xl font-bold nameplate">
           Dhanush Gummadavalli
         </h1>

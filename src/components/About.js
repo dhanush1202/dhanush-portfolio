@@ -13,7 +13,7 @@ function About() {
           </div>
         </div>
         <div className="max-w-[1000px] lg:max-w-[800px] w-full group grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right font-bold sm:text-3xl about">
+          <div className="sm:text-right sm:text-3xl about">
             <p>
              HI! I'm Dhanush, Nice to see you here. Please take a look around.
             </p>
