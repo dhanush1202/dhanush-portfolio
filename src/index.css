@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap'); */
 @layer base{
     li{
         @apply px-4;
@@ -20,21 +20,7 @@
     }
 }
 
-.navvv{
-    /* font-family: 'Jost', sans-serif;
-     */
-     /* font-family: 'Roboto Slab', serif; */
-     
-    font-family: 'Alegreya Sans', sans-serif;
-     
-}
-.about{
-    font-family: 'Lato', sans-serif;
-    
-}
-.abtmatter{
-    font-family: 'Lato', sans-serif;
-}
+
 
 .contentdiv{
     /* background-image: linear-gradient(to bottom, #4a596f, #0a192f); */
@@ -47,7 +33,7 @@
     /* font-family: 'Lugrasimo', cursive; */
     /* font-family: 'Alegreya Sans', sans-serif; */
     text-transform: uppercase;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     /* font-family: 'Mulish', sans-serif; */
 }
 
