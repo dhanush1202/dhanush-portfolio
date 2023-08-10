@@ -6,16 +6,16 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion } from "framer-motion";
+// import { useInView } from "framer-motion";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home"); 
   const initialanimi = {x:"-100vh", y: "-100vw", scale: 0};
-  const rightanimi = {x:"100vh", y: "-100vw", scale: 0};
+  // const rightanimi = {x:"100vh", y: "-100vw", scale: 0};
   const finaanimi = {x: 0, y: 0, scale: 1};
   const trans = {duration: 2, type: "spring"};
-  const animation = useAnimation();
+  // const animation = useAnimation();
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -55,12 +55,12 @@ function App() {
   };
 
   const ref4 = useRef(null);
-  const inview = useInView(ref4);
-  useEffect(() =>{
-    if(inview){
-      animation.start(finaanimi, trans);
-    }
-  })
+  // const inview = useInView(ref4);
+  // useEffect(() =>{
+  //   if(inview){
+  //     animation.start(finaanimi, trans);
+  //   }
+  // })
   const clickhandle4 = () => {
     ref4.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -99,12 +99,7 @@ function App() {
       <div ref={ref4}>
 
         <div className="h-[80px]"></div>
-        <motion.div 
-        initial={rightanimi}
-        animate={animation}>
-
       <Work />
-        </motion.div>
       </div>
       <div ref={ref5}>
         
