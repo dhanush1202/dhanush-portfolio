@@ -25,7 +25,7 @@ export default function Work() {
                 Padmaja palm groves
               </span>
               <a
-                href="https://padmajapalm.netlify.app/"
+                href="https://ppgroves.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="pt-8 "
