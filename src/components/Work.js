@@ -44,7 +44,7 @@ export default function Work() {
               <span className="text-2xl px-4 font-bold text-white">
                 ACM VNRVJIET
               </span>
-              <a href="https://github.com/dhanush1202/acm" target="_blank" rel="noreferrer" className="pt-8 ">
+              <a href="https://github.com/Avighna-G/acmproject" target="_blank" rel="noreferrer" className="pt-8 ">
                 <button className="px-3 py-1 text-center font-bold text-lg border-2 hover:bg-[#f37575] border-white hover:border-[#f37575] hover:rounded-lg text-white duration-300">
                   Code
                 </button>
