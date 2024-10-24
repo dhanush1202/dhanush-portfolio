@@ -1,3 +1,7 @@
-.App{
-    background-image: linear-gradient(to bottom, #334155e6, #0a192f);
+.App {
+  background-image: linear-gradient(to bottom, #f1f0f0, #8e8c8c);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
