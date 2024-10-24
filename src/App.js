@@ -7,7 +7,6 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import { motion } from "framer-motion";
-import img from './assets/background_image.png';
 // import { useInView } from "framer-motion";
 
 function App() {

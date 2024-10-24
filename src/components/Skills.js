@@ -1,17 +1,8 @@
 import React from "react";
-import android from "../assets/android.png";
-import bs from "../assets/burp suite.png";
-import c from "../assets/c.png";
-import cpp from "../assets/cpp.png";
 import css from "../assets/css.png";
-import firebase from "../assets/firebase.png";
-import github from "../assets/github.png";
 import html from "../assets/html.png";
-import java from "../assets/java.png";
 import javascript from "../assets/javascript.png";
-import python from "../assets/python.png";
 import react from "../assets/react.png";
-import sql from "../assets/sql.png";
 import tailwind from "../assets/tailwind.png";
 import express from "../assets/express.png";
 import Node from "../assets/node.png";
