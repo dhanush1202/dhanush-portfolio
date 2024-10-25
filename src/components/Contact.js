@@ -8,7 +8,7 @@ export default function Contact() {
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col group justify-center w-full h-full">
         <div className="py-8">
-          <p className="font-bold text-4xl uppercase inline border-[#627254] group-hover:border-b-4 duration-200 px-2 navvv">
+          <p className="font-bold text-4xl uppercase inline border-[#627254] border-b-4 duration-200 px-2 navvv">
             Contact
           </p>
           <p className="p-3 abtmatter">Connect with me!!</p>

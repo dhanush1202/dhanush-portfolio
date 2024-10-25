@@ -29,7 +29,7 @@ export default function Skills() {
     <div className="w-full max-h-fit  text-gray-900 ">
       <div className="max-w-[1000px] mx-auto p-4 flex group flex-col justify-center w-full h-full">
         <div>
-          <p className="font-bold text-4xl inline border-[#627254] group-hover:border-b-4 duration-200 px-2 navvv uppercase">
+          <p className="font-bold text-4xl inline border-[#627254] border-b-4 duration-200 px-2 navvv uppercase">
             Skills
           </p>
           <p className="py-4 abtmatter">

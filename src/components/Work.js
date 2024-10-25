@@ -32,7 +32,7 @@ export default function Work() {
     <div className="w-full min-h-screen  text-gray-900">
       <div className="max-w-[1000px] mx-auto px-4 flex flex-col group/whole justify-center w-full h-full">
         <div>
-          <p className="font-bold text-4xl inline border-[#627254] group-hover/whole:border-b-4 duration-200 px-2 navvv uppercase">
+          <p className="font-bold text-4xl inline border-[#627254] border-b-4 duration-200 px-2 navvv uppercase">
             Projects
           </p>
           <p className="py-3 abtmatter">Here are some of my works</p>
@@ -44,12 +44,12 @@ export default function Work() {
                 style={{ backgroundImage: `url(${Work[key].image})` }}
                 className="shadow-[#3b4354] border-[#3b4354] group hover:shadow-[#555555bb] rounded-lg flex justify-center items-center contentdiv"
               >
-                <div className="opacity-0 group-hover:opacity-100 duration-500 flex flex-col items-center justify-center">
+                <div className="opacity-0 group-hover:opacity-100 duration-[1s] flex flex-col items-center justify-center">
                   <span className="text-2xl px-4 font-bold text-gray-900">
                     {key}
                   </span>
                   <a
-                    href={key.uri}
+                    href={Work[key].uri}
                     target="_blank"
                     rel="noreferrer"
                     className="pt-8 "
